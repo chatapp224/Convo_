@@ -15,6 +15,9 @@ buildscript {
 
 
 
+
+
+
 allprojects {
     repositories {
         google()
@@ -25,7 +28,7 @@ allprojects {
 rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/convo"
-     project.evaluationDependsOn(':app')
+    project.evaluationDependsOn(':app')
 }
 
 tasks.register("clean", Delete) {

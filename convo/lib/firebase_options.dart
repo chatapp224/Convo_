@@ -26,7 +26,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -50,19 +53,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyARhpLoBiFhE0uAPDdYHmUOeDH9arphw5E',
-    appId: '1:726873084730:android:383446b13a7df3be593603',
-    messagingSenderId: '726873084730',
-    projectId: 'convo-chat-app-224aa',
-    storageBucket: 'convo-chat-app-224aa.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAfj1hX2B1Tz0tGUtXJ3NOQrh9BnLhpDgE',
-    appId: '1:726873084730:ios:8815b25f2b9b0374593603',
-    messagingSenderId: '726873084730',
-    projectId: 'convo-chat-app-224aa',
-    storageBucket: 'convo-chat-app-224aa.appspot.com',
-    iosBundleId: 'com.example.convo',
+    apiKey: 'AIzaSyDXjySbUvFsdkGaVrla9Z19LNr_dxqkKpM',
+    appId: '1:149344208072:android:70a37b1aadc047e9cf91fd',
+    messagingSenderId: '149344208072',
+    projectId: 'convo-10cbc',
+    storageBucket: 'convo-10cbc.appspot.com',
   );
 }

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "726873084730",
-    "project_id": "convo-chat-app-224aa",
-    "storage_bucket": "convo-chat-app-224aa.appspot.com"
+    "project_number": "149344208072",
+    "project_id": "convo-10cbc",
+    "storage_bucket": "convo-10cbc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:726873084730:android:383446b13a7df3be593603",
+        "mobilesdk_app_id": "1:149344208072:android:70a37b1aadc047e9cf91fd",
         "android_client_info": {
           "package_name": "com.example.convo"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyARhpLoBiFhE0uAPDdYHmUOeDH9arphw5E"
+          "current_key": "AIzaSyDXjySbUvFsdkGaVrla9Z19LNr_dxqkKpM"
         }
       ],
       "services": {
